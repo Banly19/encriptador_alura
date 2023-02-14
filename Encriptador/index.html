@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img/logo.png" class="logo" alt="logo">
+        </header>
+        <main>
+            <section>
+                <input id="textarea" placeholder="Ingresar el texto aquí"></input>
+                <div class="alerta">
+                    <img src="img/alert.png" alt="alerta" >
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="btn-section">
+                    <button class="btn input-btn encriptar-btn" id="encriptar">Encriptar</button>
+                    <button class="btn input-btn desencriptar-btn" id="desencriptar">Desencriptar</button>
+                </div>
+            </section>
+            <aside>
+                <div id="resultado">
+                    <div>
+                        <img src="img/ilustracion.png" alt="" class="ilustracion">
+                        <h2>Ningún mensaje fue encontrado</h2>
+                        <p>
+                            Ingresa el texto que desees encriptar o desencriptar.
+                        </p>
+                    </div>
+                </div>
+                <button class="btn section-btn ocultar" id="copiar" class="">Copiar</button>
+            </aside>
+        </main>
+        <footer><p>Desarrollado por Lucia Venegas <a href="https://github.com/Banly19" target="_blank"> GitHub</a></p></footer>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
